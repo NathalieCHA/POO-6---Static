@@ -8,4 +8,9 @@ class Speedometer {
     {   
         return $Km * SELF::TOMILES_CONVERSION;
     }
+    
+        public static function convertMilesToKm (int $Miles)
+    {   
+        return $Miles * 1 /(SELF::TOMILES_CONVERSION);
+    }
 }
